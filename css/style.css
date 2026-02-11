@@ -1,10 +1,63 @@
-body { font-family: Arial; text-align: center; background: #f4f4f4; }
-.container { margin-top: 50px; }
-input { display: block; margin: 10px auto; padding: 10px; width: 250px; }
-button { padding: 10px 20px; background: #0066ff; color: white; border: none; cursor: pointer; border-radius: 5px; }
-.logo { width: 120px; margin-top: 20px; }
-.order-card { background: white; margin: 10px auto; padding: 15px; border-radius: 8px; max-width: 400px; text-align: left; }
-.payment-box { max-width: 400px; margin: 50px auto; background: white; padding: 30px; border-radius: 10px; text-align: center; }
-.pay-btn { width: 100%; padding: 15px; margin: 10px 0; border: none; cursor: pointer; border-radius: 8px; }
-.kaspi { background: #e60012; color: white; }
-.halyk { background: #00843d; color: white; }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color: white;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.glass {
+  background: rgba(255,255,255,0.08);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #00e676;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
